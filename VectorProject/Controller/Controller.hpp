@@ -10,11 +10,14 @@
 #define Controller_hpp
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Controller
 {
 private:
+    vector<int> integers;
+    vector<string> strings;
 public:
     Controller();
     void start();
